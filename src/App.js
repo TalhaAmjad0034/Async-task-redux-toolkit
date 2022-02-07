@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Fetching date from redux-toolkit</h1>
+      <h1>Fetching data from redux-toolkit</h1>
       {users && users.map((user, i) => <h1 key={i}>{user.name}</h1>)}
     </div>
   );
